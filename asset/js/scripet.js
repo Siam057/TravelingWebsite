@@ -64,3 +64,7 @@ const ri = ScrollReveal({ /*  For right Side */
 })
 
 ri.reveal ('#row3' ,{delay:300});
+
+
+
+
