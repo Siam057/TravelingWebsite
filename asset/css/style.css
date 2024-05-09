@@ -298,6 +298,11 @@ section{
 
   }
 
+  .nav__logo img{
+    width: 120px;
+    object-fit: cover;
+  }
+
 
 /* =========== Home Page Start =========== */
   .home{
@@ -376,4 +381,73 @@ section{
     cursor: pointer;
   }
 
+  /* Card Section Start */
+  .card_section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_section .card p{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    max-width: 300px;
+    margin: auto;
+    padding-top: 2rem;
+  }
+  lord-icon{
+    cursor: pointer;
+  }
+
+
+  /* RESPONSIVE */
+  @media(max-width: 568px){
+    .home{
+      padding-right: 4rem;
+    }
+
+    .home .home_text h1{
+      font-size: 3rem;
+      padding: 1rem 0;
+      color: white;
+    }
+    
+    .home .home_text h2{
+      font-size: 3rem;
+      color: white;
+    }
+    
+    .serachBar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #dff9fb;
+      width: 310px;
+      height: 5rem;
+      margin: auto;
+      padding: 1rem;
+      gap: 10px;
+      border-radius: 50px;
+    }
+
+    .nav__logo img{
+      width: 90px;
+      object-fit: cover;
+    }
+
+    .card_section{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 3rem;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
 
