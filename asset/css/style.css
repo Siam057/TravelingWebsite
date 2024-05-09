@@ -339,3 +339,41 @@ section{
     color: whitesmoke;
     max-width: 415px;
   }
+
+  .serachBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #dff9fb;
+    width: 360px;
+    height: 5rem;
+    margin: auto;
+    padding: 1rem;
+    gap: 10px;
+    border-radius: 50px;
+  }
+
+  .serachBar input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: #033943;
+  }
+
+  .serachBar i{
+    font-size: 1.5rem;
+  }
+
+  .serachBar button{
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #033943;
+    color: white;
+    padding: 1rem;
+    line-height: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+

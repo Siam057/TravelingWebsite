@@ -46,14 +46,18 @@ const sc = ScrollReveal({ /*  For left Side */
 })
 sc .reveal ('.about-image' ,{delay:300});
 
-const bo = ScrollReveal({ /*  For bottom Side */
+const bottom = ScrollReveal({ /*  For bottom Side */
     origin: 'bottom',
     distance: '85px',
     duration: 2500,
     reset:true
 })
 
-bo.reveal ('#row2' ,{delay:300});
+bottom.reveal ('#name' ,{delay:300});
+bottom.reveal ('#h1' ,{delay:310});
+bottom.reveal ('#h2' ,{delay:315});
+bottom.reveal ('.praTag' ,{delay:320});
+
 
 
 const ri = ScrollReveal({ /*  For right Side */
